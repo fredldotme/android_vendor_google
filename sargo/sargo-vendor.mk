@@ -340,8 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/sargo/proprietary/lib64/vendor.qti.voiceprint@1.0.so:system/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/google/sargo/proprietary/lib64/vndk-28/libprotobuf-cpp-full.so:system/lib64/vndk-28/libprotobuf-cpp-full.so \
-    vendor/google/sargo/proprietary/priv-app/EuiccGoogle/esim-full-v0.img:system/priv-app/EuiccGoogle/esim-full-v0.img \
-    vendor/google/sargo/proprietary/priv-app/EuiccGoogle/esim-v1.img:system/priv-app/EuiccGoogle/esim-v1.img \
     vendor/google/sargo/proprietary/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so:system/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so
 
 PRODUCT_PACKAGES += \
@@ -355,7 +353,6 @@ PRODUCT_PACKAGES += \
     Ornament \
     QtiTelephonyService \
     SSRestartDetector \
-    Tycho \
     VZWAPNLib \
     arcore \
     com.qualcomm.qti.services.secureui \
@@ -375,7 +372,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DMService \
     DiagMon \
-    EuiccGoogle \
     GCS \
     HardwareInfo \
     HotwordEnrollmentOKGoogleRT5514 \
