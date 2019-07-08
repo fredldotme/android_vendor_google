@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     remotesimlockservice \
     smcinvokepkgmgr \
     SSRestartDetector \
-    Tycho \
     uceShimService \
     uimlpaservice \
     VZWAPNLib
@@ -49,12 +48,9 @@ PRODUCT_PACKAGES += \
     DCMO \
     DMService \
     DiagMon \
-    EuiccGoogle \
     GCS \
     grilservice \
     HardwareInfo \
-    HotwordEnrollmentOKGoogleRT5514 \
-    HotwordEnrollmentXGoogleRT5514 \
     LLKAgent\
     ModemService \
     MyVerizonServices \
@@ -423,6 +419,4 @@ PRODUCT_COPY_FILES := \
     vendor/google/bonito/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/google/bonito/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/bonito/proprietary/lib64/vendor.qti.voiceprint@1.0.so:system/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/google/bonito/proprietary/priv-app/EuiccGoogle/esim-full-v0.img:system/priv-app/EuiccGoogle/esim-full-v0.img \
-    vendor/google/bonito/proprietary/priv-app/EuiccGoogle/esim-v1.img:system/priv-app/EuiccGoogle/esim-v1.img \
     vendor/google/bonito/proprietary/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so:system/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so
