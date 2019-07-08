@@ -374,8 +374,6 @@ PRODUCT_PACKAGES += \
     DiagMon \
     GCS \
     HardwareInfo \
-    HotwordEnrollmentOKGoogleRT5514 \
-    HotwordEnrollmentXGoogleRT5514 \
     LLKAgent \
     ModemService \
     MyVerizonServices \
